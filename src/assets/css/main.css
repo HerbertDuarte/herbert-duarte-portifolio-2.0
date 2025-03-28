@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-lime: "Limelight", sans-serif;
+    --font-madi: "Ms Madi", cursive;
+}
