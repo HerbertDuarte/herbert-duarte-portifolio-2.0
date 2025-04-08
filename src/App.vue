@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import Header from "./components/Header.vue";
-import HomePage from "./components/HomePage.vue";
+import HeaderComponent from "./components/HeaderComponent.vue";
+import HomePage from "./pages/HomePage.vue";
+import KnowledgesPage from "./pages/KnowledgesPage.vue";
+import WorksPage from "./pages/WorksPage.vue";
+import FooterPage from "./pages/FooterPage.vue";
 </script>
 
 <template>
-  <Header />
+  <HeaderComponent />
   <HomePage />
+  <WorksPage />
+  <KnowledgesPage />
+  <FooterPage />
 </template>
