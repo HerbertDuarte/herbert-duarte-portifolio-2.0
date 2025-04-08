@@ -11,7 +11,7 @@ const works: Work[] = [
       "Software Architecture",
       "Web Fullstack Development",
       "Team Management",
-      "SPRING | NESTJS | ANGULAR",
+      "SPRINGBOOT | NESTJS | ANGULAR",
     ],
   },
 

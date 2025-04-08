@@ -11,7 +11,9 @@ import "/images/postgres.png";
 <template>
   <ContainerComponent theme="light">
     <div class="flex flex-col gap-8 font-serif">
-      <div class="flex items-center justify-center gap-6 flex-wrap">
+      <div
+        class="flex items-center justify-center gap-6 flex-wrap filter grayscale"
+      >
         <div class="h-9">
           <img class="h-full" src="/images/nest.png" alt="nest" />
         </div>

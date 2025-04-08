@@ -8,8 +8,11 @@ import FooterPage from "./pages/FooterPage.vue";
 
 <template>
   <HeaderComponent />
-  <HomePage />
-  <WorksPage />
-  <KnowledgesPage />
-  <FooterPage />
+  <div class="flex flex-col items-stretch justify-start h-container">
+    <HomePage />
+    <WorksPage />
+    <KnowledgesPage />
+    <div class="flex-1 bg-zinc-50"></div>
+    <FooterPage />
+  </div>
 </template>

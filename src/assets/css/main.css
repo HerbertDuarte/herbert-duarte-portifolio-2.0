@@ -6,3 +6,7 @@
     --font-lime: "Limelight", sans-serif;
     --font-madi: "Ms Madi", cursive;
 }
+
+.h-container {
+    min-height: calc(100dvh - 80px);
+}

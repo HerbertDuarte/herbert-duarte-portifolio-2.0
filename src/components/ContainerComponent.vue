@@ -8,11 +8,11 @@ defineProps<{
 const mapTheme: Record<Theme, string> = {
   light: "bg-white text-black",
   dark: "bg-black text-white",
-  gray: "bg-zinc-50 text-zinc-950",
+  gray: "bg-gray-50 text-gray-950",
 };
 </script>
 <template>
-  <div :class="`w-full gap-8 p-6 ${mapTheme[theme]} ${className}`">
+  <div :class="`w-full h-full gap-8 p-6 ${mapTheme[theme]} ${className}`">
     <div class="max-w-[1280px] mx-auto">
       <slot />
     </div>
