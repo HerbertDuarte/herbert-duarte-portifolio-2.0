@@ -5,17 +5,17 @@ import SocialCircleButtonComponent from "../components/SocialCircleButtonCompone
 
 const socialButtons: SocialButtonProps[] = [
   {
-    imgUrl: "/src/assets/linkedin.png",
+    imgUrl: "/images/linkedin.png",
     linkUrl: "https://www.linkedin.com/in/herbert-duarte-8534b71a2",
   },
 
   {
-    imgUrl: "/src/assets/github.png",
+    imgUrl: "/images/github.png",
     linkUrl: "https://github.com/HerbertDuarte",
   },
 
   {
-    imgUrl: "/src/assets/youtube.png",
+    imgUrl: "/images/youtube.png",
     linkUrl: "https://www.youtube.com/@herbertduarte_dev",
   },
 ];

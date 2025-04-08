@@ -20,14 +20,14 @@ import ContainerComponent from "../components/ContainerComponent.vue";
           <a
             href="https://www.linkedin.com/in/herbert-duarte-8534b71a2"
             target="_blank"
-            class="inline items-center gap-1 bg-blue-500 font-medium text-white rounded-full py-3 px-6"
+            class="flex justify-items-start items-center w-fit gap-1 bg-blue-500 font-medium text-white rounded-full py-3 px-6"
           >
             <img
-              src="/src/assets/linkedin.png"
-              class="size-6 inline mt-px"
+              src="/images/linkedin.png"
+              class="size-6 inline"
               alt="linkedin"
             />
-            <span>LinkedIn</span>
+            <span class="pb-px">LinkedIn</span>
           </a>
         </div>
         <p class="font-madi text-3xl pt-2">
