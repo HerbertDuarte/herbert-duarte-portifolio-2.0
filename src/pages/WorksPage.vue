@@ -6,7 +6,7 @@ import type { Work } from "../components/WorkComponent.vue";
 const works: Work[] = [
   {
     title: "Tivic - Tecnologia da Informação",
-    subtitle: "Junior 3 | 04/2024 - NOW",
+    subtitle: "Junior 3 (Apr 2024 - Present)",
     items: [
       "Software Architecture",
       "Web Fullstack Development",
@@ -17,19 +17,19 @@ const works: Work[] = [
 
   {
     title: "OOISME",
-    subtitle: "Freelance | 01/2025 - 04/2025",
+    subtitle: "Freelance (Jan 2025 - Apr 2025)",
     items: ["Web Fullstack Development", "Web Security", "NEXTJS | NESTJS"],
   },
 
   {
     title: "City Hall of Vitória da Conquista",
-    subtitle: "Intern | 08/2023 - NOW",
+    subtitle: "Intern (Aug 2023 - Present)",
     items: ["Web Fullstack Development", "VUEJS | NESTJS"],
   },
 
   {
     title: "Açaí Flash",
-    subtitle: "Freelance | 01/2024 - 04/2024",
+    subtitle: "Freelance (Jan 2024 - Apr 2024)",
     items: ["Tech Lead", "Web Fullstack Development", "VUEJS | NESTJS"],
   },
 ];
@@ -46,7 +46,7 @@ const works: Work[] = [
       </div>
 
       <div
-        class="flex items-start flex-wrap flex-col md:flex-row justify-center gap-14"
+        class="flex items-start flex-wrap flex-col md:flex-row justify-center lg:justify-between gap-14"
       >
         <WorkComponent
           :work="work"

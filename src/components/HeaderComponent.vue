@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header class="py-4 px-6">
+  <header class="py-4 px-6 fixed w-full backdrop-blur-md bg-white/70">
     <div
       class="flex items-center justify-between font-medium max-w-[1280px] mx-auto"
     >
@@ -23,4 +23,5 @@
       </a>
     </div>
   </header>
+  <div class="h-20"></div>
 </template>

@@ -30,7 +30,7 @@ import ContainerComponent from "../components/ContainerComponent.vue";
             <span class="pb-px">LinkedIn</span>
           </a>
         </div>
-        <p class="font-madi text-3xl pt-2">
+        <p class="text-right font-madi text-3xl pt-2">
           <span class="text-6xl">H</span>erbert
           <span class="text-6xl">D</span>uarte
         </p>
