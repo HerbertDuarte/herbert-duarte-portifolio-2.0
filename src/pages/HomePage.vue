@@ -5,9 +5,6 @@ import ContainerComponent from "../components/ContainerComponent.vue";
 <template>
   <ContainerComponent theme="light">
     <div class="flex">
-      <div class="hidden flex-1 max-w-[35%]">
-        <div class="bg-black h-[450px] w-[300px] rounded-full"></div>
-      </div>
       <div class="flex-1 flex flex-col justify-center">
         <p class="font-lime text-5xl sm:text-6xl lg:text-7xl">
           Software Architect & Web Developer
@@ -34,6 +31,17 @@ import ContainerComponent from "../components/ContainerComponent.vue";
           <span class="text-6xl">H</span>erbert
           <span class="text-6xl">D</span>uarte
         </p>
+      </div>
+      <div class="flex-1 hidden lg:flex justify-end max-w-[35%] py-16">
+        <div
+          class="bg-zinc-50 size-[300px] 2xl:size-[350px] flex flex-col justify-end rounded-full"
+        >
+          <img
+            class="w-full -translate-y-0 rounded-b-full"
+            src="/images/herbert.png"
+            alt="Herbert Duarte"
+          />
+        </div>
       </div>
     </div>
   </ContainerComponent>

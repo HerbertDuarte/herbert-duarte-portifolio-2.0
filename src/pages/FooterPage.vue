@@ -30,7 +30,9 @@ const socialButtons: SocialButtonProps[] = [
           :key="index"
         />
       </div>
-      <p class="text-center">herbertduarte.santos@gmail.com</p>
+      <p class="text-center opacity-65 hover:opacity-100 transition">
+        herbertduarte.santos@gmail.com
+      </p>
     </div>
   </ContainerComponent>
 </template>

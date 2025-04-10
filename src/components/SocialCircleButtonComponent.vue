@@ -9,7 +9,7 @@ defineProps<{ item: SocialButtonProps }>();
   <a
     target="_blank"
     :href="item.linkUrl"
-    class="size-10 rounded-full border p-1.5"
+    class="size-10 rounded-full border p-1.5 opacity-65 hover:opacity-100 transition"
   >
     <img :src="item.imgUrl" />
   </a>
