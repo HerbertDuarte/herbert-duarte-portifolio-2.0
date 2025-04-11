@@ -10,7 +10,7 @@ function goToRepos() {
 <template>
   <ContainerComponent theme="dark">
     <div
-      class="flex font-serif gap-16 flex-wrap items-center justify-around py-2 text-zinc-200"
+      class="flex font-serif gap-10 xs:gap-16 flex-wrap items-center justify-around py-2 text-zinc-200"
     >
       <InfoComponent value="3">
         <p>

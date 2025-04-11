@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
 @import "tailwindcss";
 
 @theme {
-    --font-lime: "Limelight", sans-serif;
     --font-madi: "Ms Madi", cursive;
-    --breakpoint-xs: 30rem;
+    --font-libre: "Libre Caslon Text", serif;
+
+
+    --breakpoint-xs: 24rem;
 }
 
 .h-container {
