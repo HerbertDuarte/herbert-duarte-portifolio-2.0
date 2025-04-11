@@ -5,6 +5,7 @@
 @theme {
     --font-lime: "Limelight", sans-serif;
     --font-madi: "Ms Madi", cursive;
+    --breakpoint-xs: 30rem;
 }
 
 .h-container {

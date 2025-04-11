@@ -6,7 +6,7 @@ import ContainerComponent from "../components/ContainerComponent.vue";
   <ContainerComponent theme="light">
     <div class="flex">
       <div class="flex-1 flex flex-col justify-center">
-        <p class="font-lime text-5xl sm:text-6xl lg:text-7xl">
+        <p class="font-lime text-4xl xs:text-5xl sm:text-6xl lg:text-7xl">
           Desenvolvedor Web & Arquiteto de Software
         </p>
         <p class="text-zinc-600 my-4">
@@ -46,3 +46,5 @@ import ContainerComponent from "../components/ContainerComponent.vue";
     </div>
   </ContainerComponent>
 </template>
+
+<style scoped></style>
