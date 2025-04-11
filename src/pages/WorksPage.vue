@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Link2Icon, LinkIcon } from "lucide-vue-next";
 import ContainerComponent from "../components/ContainerComponent.vue";
 import WorkComponent from "../components/WorkComponent.vue";
 import type { Work } from "../components/WorkComponent.vue";
@@ -53,6 +54,17 @@ const works: Work[] = [
           :key="index"
           v-for="(work, index) in works"
         />
+      </div>
+
+      <div>
+        <a
+          class="hover:underline flex items-center gap-2"
+          target="_blank"
+          href="https://docs.google.com/document/d/1ZXpLK_wcGbiaEC29B5fCXnAuccH-9eAp8EpTEV7ub2s/edit?tab=t.0"
+        >
+          <Link2Icon :size="18" />
+          <span>Go to resume</span>
+        </a>
       </div>
     </div>
   </ContainerComponent>
