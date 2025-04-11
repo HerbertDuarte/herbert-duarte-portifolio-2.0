@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Link2Icon, LinkIcon } from "lucide-vue-next";
+import { Link2Icon } from "lucide-vue-next";
 import ContainerComponent from "../components/ContainerComponent.vue";
 import WorkComponent from "../components/WorkComponent.vue";
 import type { Work } from "../components/WorkComponent.vue";
@@ -7,31 +7,35 @@ import type { Work } from "../components/WorkComponent.vue";
 const works: Work[] = [
   {
     title: "Tivic - Tecnologia da Informação",
-    subtitle: "Junior 3 (Apr 2024 - Present)",
+    subtitle: "Júnior 3 (Abr 2024 - Presente)",
     items: [
-      "Software Architecture",
-      "Web Fullstack Development",
-      "Team Management",
+      "Arquitetura de Software",
+      "Desenvolvimento Web Fullstack",
+      "Gestão de Equipe",
       "SPRINGBOOT | NESTJS | ANGULAR",
     ],
   },
 
   {
     title: "OOISME",
-    subtitle: "Freelance (Jan 2025 - Apr 2025)",
-    items: ["Web Fullstack Development", "Web Security", "NEXTJS | NESTJS"],
+    subtitle: "Freelancer (Jan 2025 - Abr 2025)",
+    items: [
+      "Desenvolvimento Web Fullstack",
+      "Segurança Web",
+      "NEXTJS | NESTJS",
+    ],
   },
 
   {
-    title: "City Hall of Vitória da Conquista",
-    subtitle: "Intern (Aug 2023 - Present)",
-    items: ["Web Fullstack Development", "VUEJS | NESTJS"],
+    title: "Prefeitura de Vitória da Conquista",
+    subtitle: "Estagiário (Ago 2023 - Presente)",
+    items: ["Desenvolvimento Web Fullstack", "VUEJS | NESTJS"],
   },
 
   {
     title: "Açaí Flash",
-    subtitle: "Freelance (Jan 2024 - Apr 2024)",
-    items: ["Tech Lead", "Web Fullstack Development", "VUEJS | NESTJS"],
+    subtitle: "Freelancer (Jan 2024 - Abr 2024)",
+    items: ["Líder Técnico", "Desenvolvimento Web Fullstack", "VUEJS | NESTJS"],
   },
 ];
 </script>
@@ -42,7 +46,7 @@ const works: Work[] = [
         class="text-2xl font-semibold py-4 flex justify-center items-center gap-3"
       >
         <span class="h-[2px] flex-1 max-w-20 bg-zinc-900" />
-        <p>Work Experience</p>
+        <p>Experiência Profissional</p>
         <span class="h-[2px] flex-1 max-w-20 bg-zinc-900" />
       </div>
 
@@ -63,7 +67,7 @@ const works: Work[] = [
           href="https://docs.google.com/document/d/1ZXpLK_wcGbiaEC29B5fCXnAuccH-9eAp8EpTEV7ub2s/edit?tab=t.0"
         >
           <Link2Icon :size="18" />
-          <span>Go to resume</span>
+          <span>Ver currículo</span>
         </a>
       </div>
     </div>

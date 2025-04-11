@@ -8,10 +8,9 @@
       <p class="font-bold text-xl">Herbert.</p>
       <ul class="hidden sm:flex gap-4 items-center">
         <li class="text-blue-600">Home</li>
-        <li>Works</li>
-        <li>Services</li>
-        <li>Knowledges</li>
-        <li>Blog</li>
+        <li>Experiências</li>
+        <li>Conhecimentos</li>
+        <li>Redes sociais</li>
       </ul>
       <a
         target="_blank"
@@ -19,7 +18,7 @@
         :href="`https://wa.me/77999851621`"
         class="bg-black text-white rounded-full py-2.5 px-3.5"
       >
-        Contact me
+        Fale comigo
       </a>
     </div>
   </header>

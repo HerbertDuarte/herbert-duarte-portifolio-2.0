@@ -13,15 +13,22 @@ function goToRepos() {
       class="flex font-serif gap-16 flex-wrap items-center justify-around py-2"
     >
       <InfoComponent value="3">
-        Years of <br />
-        experience
+        <p>
+          Anos de <br />
+          experiência
+        </p>
       </InfoComponent>
       <InfoComponent class="cursor-pointer" @click="goToRepos" value="65">
-        Public <br />repositories
+        <p>
+          Repositórios <br />
+          públicos
+        </p>
       </InfoComponent>
       <InfoComponent value="20h">
-        Courses <br />
-        taught
+        <p>
+          Cursos <br />
+          ministrados
+        </p>
       </InfoComponent>
     </div>
   </ContainerComponent>

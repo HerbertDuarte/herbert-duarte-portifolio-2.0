@@ -7,11 +7,11 @@ import ContainerComponent from "../components/ContainerComponent.vue";
     <div class="flex">
       <div class="flex-1 flex flex-col justify-center">
         <p class="font-lime text-5xl sm:text-6xl lg:text-7xl">
-          Software Architect & Web Developer
+          Desenvolvedor Web & Arquiteto de Software
         </p>
         <p class="text-zinc-600 my-4">
-          I'm a Full Stack Software Architect & Creative Web Developer based in
-          Vitória da Conquista, Bahia, Brazil.
+          Sou um Arquiteto de Software & Desenvolvedor Full Stack Web,
+          atualmente residindo em Vitória da Conquista, Bahia, Brasil.
         </p>
         <div class="my-4">
           <a
