@@ -7,7 +7,7 @@ import type { Work } from "../components/WorkComponent.vue";
 const works: Work[] = [
   {
     title: "Tivic - Tecnologia da Informação",
-    subtitle: "Júnior 3 (Abr 2024 - Presente)",
+    subtitle: "Coordenador (Abr 2024 - Presente)",
     items: [
       "Arquitetura de Software",
       "Desenvolvimento Web Fullstack",
