@@ -40,7 +40,7 @@ const works: Work[] = [
 ];
 </script>
 <template>
-  <ContainerComponent theme="gray">
+  <ContainerComponent theme="light">
     <div class="flex flex-col gap-8 font-serif pb-6">
       <div
         class="text-2xl font-semibold py-4 flex justify-center items-center gap-3"

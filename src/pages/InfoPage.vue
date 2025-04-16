@@ -1,35 +1,54 @@
 <script setup lang="ts">
 import ContainerComponent from "../components/ContainerComponent.vue";
-import InfoComponent from "../components/InfoComponent.vue";
+import CardProjectComponent, {
+  type Projeto,
+} from "../components/CardProjectComponent.vue";
 
-function goToRepos() {
-  window.open("https://github.com/HerbertDuarte?tab=repositories", "_blank");
-}
+const projetos: Projeto[] = [
+  {
+    name: "Live - Fundamentos Vue 3",
+    description:
+      "Uma live no Youtube onde ensino os fundamentos do framework Vue JS.",
+    src: "/images/live-vue.jpg",
+    link: "https://www.youtube.com/watch?v=Enqjp5hXsV8",
+  },
+  {
+    name: "GanttHub",
+    description:
+      "Sistema de gestão de projetos para a Prefeitura de Vitoria da Conquista.",
+    src: "/images/gantthub2.png",
+  },
+  {
+    name: "Açaí Flash - Sorteios",
+    description: "Sistema de sorteios para uma rede de lojas de açaí.",
+    src: "/images/acai-flash.png",
+  },
+  {
+    name: "Ana Clara - Modelo de publicidade",
+    description:
+      "Uma landing page para um modelo de publicidade. Projeto de estudo do React JS.",
+    src: "/images/ana-clara2.png",
+    link: "https://anaclara-model.vercel.app/",
+  },
+];
 </script>
 
 <template>
-  <ContainerComponent theme="dark">
+  <ContainerComponent theme="gray">
     <div
-      class="flex font-serif gap-10 xs:gap-16 flex-wrap items-center justify-around py-2 text-zinc-200"
+      class="text-2xl font-semibold py-4 flex justify-center items-center gap-3 font-serif italic"
     >
-      <InfoComponent value="3">
-        <p>
-          Anos de <br />
-          experiência
-        </p>
-      </InfoComponent>
-      <InfoComponent class="cursor-pointer" @click="goToRepos" value="65">
-        <p>
-          Repositórios <br />
-          públicos
-        </p>
-      </InfoComponent>
-      <InfoComponent value="20h">
-        <p>
-          Cursos <br />
-          ministrados
-        </p>
-      </InfoComponent>
+      <span class="h-[2px] flex-1 max-w-20 bg-zinc-900" />
+      <p>Alguns projetos</p>
+      <span class="h-[2px] flex-1 max-w-20 bg-zinc-900" />
+    </div>
+
+    <div class="grid grid-cols-1 mob:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
+      <CardProjectComponent
+        :projeto="projeto"
+        :key="index"
+        v-for="(projeto, index) in projetos"
+      />
     </div>
   </ContainerComponent>
 </template>

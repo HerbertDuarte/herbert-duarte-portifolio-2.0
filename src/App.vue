@@ -9,12 +9,11 @@ import InfoPage from "./pages/InfoPage.vue";
 
 <template>
   <HeaderComponent />
-  <div class="flex flex-col items-stretch justify-start h-container">
+  <div class="flex flex-col items-stretch justify-start h-container font-geist">
     <HomePage />
-    <InfoPage />
-    <WorksPage />
     <KnowledgesPage />
-    <div class="flex-1 bg-zinc-50"></div>
+    <WorksPage />
+    <InfoPage />
     <FooterPage />
   </div>
 </template>

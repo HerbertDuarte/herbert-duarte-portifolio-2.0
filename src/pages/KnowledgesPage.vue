@@ -9,7 +9,7 @@ import "/images/next.png";
 import "/images/postgres.png";
 </script>
 <template>
-  <ContainerComponent theme="light">
+  <ContainerComponent theme="gray">
     <div class="flex flex-col gap-8 font-serif">
       <div
         class="flex items-center justify-center gap-6 flex-wrap filter grayscale"
