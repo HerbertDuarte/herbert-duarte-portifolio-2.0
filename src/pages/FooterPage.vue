@@ -1,7 +1,13 @@
 <script setup lang="ts">
+import { LinkIcon } from "lucide-vue-next";
 import ContainerComponent from "../components/ContainerComponent.vue";
 import type { SocialButtonProps } from "../components/SocialCircleButtonComponent.vue";
 import SocialCircleButtonComponent from "../components/SocialCircleButtonComponent.vue";
+
+type Tool = {
+  link: string;
+  label: string;
+};
 
 const socialButtons: SocialButtonProps[] = [
   {
@@ -19,11 +25,26 @@ const socialButtons: SocialButtonProps[] = [
     linkUrl: "https://www.youtube.com/@herbertduarte_dev",
   },
 ];
+
+const tools: Tool[] = [
+  {
+    label: "Calculadora de Média Final - IFBA",
+    link: "https://mediafinal-ifba.vercel.app/",
+  },
+  {
+    label: "Repart - Play Match Generator",
+    link: "https://repart.vercel.app/",
+  },
+  {
+    label: "Criptovue - Cotação e Conversão de Moedas",
+    link: "https://cryptovue-ochre.vercel.app/",
+  },
+];
 </script>
 <template>
   <ContainerComponent theme="dark">
     <div
-      class="flex items-start justify-between gap-20 flex-wrap text-zinc-300"
+      class="flex flex-col sm:flex-row items-start justify-between gap-10 sm:gap-20 flex-wrap text-zinc-300"
     >
       <div class="flex justify-between flex-1 flex-wrap gap-6">
         <div>
@@ -40,11 +61,15 @@ const socialButtons: SocialButtonProps[] = [
         </div>
 
         <div>
-          <p class="uppercase text-zinc-500 pb-3">Tags</p>
-          <p>Programação WEB</p>
-          <p>Frontend</p>
-          <p>Backend</p>
-          <p>Arquitetura de Software</p>
+          <p class="uppercase text-zinc-500 pb-3">LINKS</p>
+          <p
+            class="flex items-start gap-2 hover:underline hover:text-blue-200"
+            v-for="(tool, index) in tools"
+            :key="index"
+          >
+            <LinkIcon class="mt-[2px]" :size="18" />
+            <a :href="tool.link">{{ tool.label }}</a>
+          </p>
         </div>
       </div>
       <div class="space-y-2">

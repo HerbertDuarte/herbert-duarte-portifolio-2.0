@@ -32,11 +32,11 @@ const projetos: Projeto[] = [
     link: "https://anaclara-model.vercel.app/",
   },
 ];
-
-const isMobile = ref(window.innerWidth < 480);
+const sm = 640;
+const isMobile = ref(window.innerWidth < sm);
 
 window.addEventListener("resize", () => {
-  isMobile.value = window.innerWidth < 480;
+  isMobile.value = window.innerWidth < sm;
 });
 
 const displayedProjects = computed(() => {
