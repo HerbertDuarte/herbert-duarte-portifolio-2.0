@@ -3,6 +3,7 @@ import ContainerComponent from "../components/ContainerComponent.vue";
 import CardProjectComponent, {
   type Projeto,
 } from "../components/CardProjectComponent.vue";
+import { ref, computed } from "vue";
 
 const projetos: Projeto[] = [
   {
@@ -31,6 +32,16 @@ const projetos: Projeto[] = [
     link: "https://anaclara-model.vercel.app/",
   },
 ];
+
+const isMobile = ref(window.innerWidth < 480);
+
+window.addEventListener("resize", () => {
+  isMobile.value = window.innerWidth < 480;
+});
+
+const displayedProjects = computed(() => {
+  return isMobile.value ? projetos.slice(0, 3) : projetos;
+});
 </script>
 
 <template>
@@ -43,11 +54,11 @@ const projetos: Projeto[] = [
       <span class="h-[2px] flex-1 max-w-20 bg-zinc-900" />
     </div>
 
-    <div class="grid grid-cols-1 mob:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-4">
       <CardProjectComponent
         :projeto="projeto"
         :key="index"
-        v-for="(projeto, index) in projetos"
+        v-for="(projeto, index) in displayedProjects"
       />
     </div>
   </ContainerComponent>

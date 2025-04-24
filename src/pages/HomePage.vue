@@ -27,9 +27,9 @@ import ContainerComponent from "../components/ContainerComponent.vue";
             <span class="pb-px">LinkedIn</span>
           </a>
         </div>
-        <p class="text-right font-madi text-3xl pt-2">
-          <span class="text-6xl">H</span>erbert
-          <span class="text-6xl">D</span>uarte
+        <p class="text-right font-madi text-xl sm:text-2xl md:text-3xl pt-2">
+          <span class="text-4xl sm:text-5xl md:text-6xl">H</span>erbert
+          <span class="text-4xl sm:text-5xl md:text-6xl">D</span>uarte
         </p>
       </div>
       <div class="flex-1 hidden lg:flex justify-end max-w-[35%] py-16">

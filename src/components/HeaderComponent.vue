@@ -6,11 +6,11 @@
       class="flex items-center justify-between font-medium max-w-[1280px] mx-auto"
     >
       <p class="font-bold text-xl">Herbert.</p>
-      <ul class="hidden sm:flex gap-4 items-center">
+      <ul class="hidden md:flex gap-4 items-center">
         <li class="text-blue-600">Home</li>
         <li>Experiências</li>
         <li>Conhecimentos</li>
-        <li>Redes sociais</li>
+        <li>Projetos</li>
       </ul>
       <a
         target="_blank"

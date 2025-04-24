@@ -32,11 +32,11 @@ const works: Work[] = [
     items: ["Desenvolvimento Web Fullstack", "VUEJS | NESTJS"],
   },
 
-  {
-    title: "Açaí Flash",
-    subtitle: "Freelancer (Jan 2024 - Abr 2024)",
-    items: ["Líder Técnico", "Desenvolvimento Web Fullstack", "VUEJS | NESTJS"],
-  },
+  // {
+  //   title: "Açaí Flash",
+  //   subtitle: "Freelancer (Jan 2024 - Abr 2024)",
+  //   items: ["Líder Técnico", "Desenvolvimento Web Fullstack", "VUEJS | NESTJS"],
+  // },
 ];
 </script>
 <template>
