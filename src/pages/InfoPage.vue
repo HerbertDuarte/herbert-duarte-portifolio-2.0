@@ -6,7 +6,7 @@ import TitleComponent from "../components/TitleComponent.vue";
   <ContainerComponent theme="light">
     <TitleComponent title="Highlights" />
 
-    <div class="flex justify-center p-6 sm:p-10">
+    <div class="flex justify-center py-4 sm:py-6 px-0 xs:px-2 sm:px-6 md:px-8">
       <div class="italic space-y-8 indent-8 max-w-4xl font-serif text-zinc-700">
         <p>
           "Em uma das minhas experiências participei da construção dos sistemas
