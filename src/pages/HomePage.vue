@@ -6,12 +6,12 @@ import ContainerComponent from "../components/ContainerComponent.vue";
   <ContainerComponent theme="light">
     <div class="flex">
       <div class="flex-1 flex flex-col justify-center">
-        <p class="font-libre text-4xl xs:text-5xl sm:text-6xl lg:text-7xl">
-          Desenvolvedor Web & Arquiteto de Software
+        <p class="font-libre text-4xl sm:text-6xl lg:text-7xl">
+          Desenvolvimento e Análise de Software
         </p>
         <p class="text-zinc-600 my-4">
-          Sou um Arquiteto de Software & Desenvolvedor Full Stack Web,
-          atualmente residindo em Vitória da Conquista, Bahia, Brasil.
+          Sou um Analista de Software & Desenvolvedor Full Stack, atualmente
+          residindo em Vitória da Conquista, Bahia, Brasil.
         </p>
         <div class="my-4">
           <a
@@ -34,7 +34,7 @@ import ContainerComponent from "../components/ContainerComponent.vue";
       </div>
       <div class="flex-1 hidden lg:flex justify-end max-w-[35%] py-16">
         <div
-          class="bg-zinc-50 size-[300px] 2xl:size-[350px] flex flex-col justify-end rounded-full"
+          class="bg-zinc-50 size-[280px] 2xl:size-[320px] flex flex-col justify-end rounded-full"
         >
           <img
             class="w-full -translate-y-0 rounded-b-full"

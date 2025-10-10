@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage.vue";
 import KnowledgesPage from "./pages/KnowledgesPage.vue";
 import WorksPage from "./pages/WorksPage.vue";
 import FooterPage from "./pages/FooterPage.vue";
+import ProjetosPage from "./pages/ProjetosPage.vue";
 import InfoPage from "./pages/InfoPage.vue";
 </script>
 
@@ -12,8 +13,9 @@ import InfoPage from "./pages/InfoPage.vue";
   <div class="flex flex-col items-stretch justify-start h-container font-geist">
     <HomePage />
     <KnowledgesPage />
-    <WorksPage />
     <InfoPage />
+    <ProjetosPage />
+    <WorksPage />
     <FooterPage />
   </div>
 </template>
