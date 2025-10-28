@@ -14,7 +14,7 @@ import InfoPage from "./pages/InfoPage.vue";
     <HomePage />
     <KnowledgesPage />
     <InfoPage />
-    <ProjetosPage />
+    <!-- <ProjetosPage /> -->
     <WorksPage />
     <FooterPage />
   </div>
