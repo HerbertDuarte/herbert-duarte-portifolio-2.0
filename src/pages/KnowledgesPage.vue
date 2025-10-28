@@ -10,7 +10,7 @@ const technologies = [
   { src: "/images/redisdb.png", alt: "redisdb", height: "h-9" },
   { src: "/images/mongodb.png", alt: "mongodb", height: "h-11" },
   { src: "/images/docker.png", alt: "docker", height: "h-8" },
-  { src: "/images/rabbitmq.png", alt: "rabbitmq", height: "h-6" },
+  { src: "/images/rabbitmq.png", alt: "rabbitmq", height: "h-5" },
 ];
 </script>
 <template>
