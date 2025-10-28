@@ -3,6 +3,7 @@ type Theme = "dark" | "light" | "gray";
 defineProps<{
   theme: Theme;
   className?: string;
+  fullWidth?:boolean
 }>();
 
 const mapTheme: Record<Theme, string> = {
@@ -13,7 +14,7 @@ const mapTheme: Record<Theme, string> = {
 </script>
 <template>
   <div :class="`w-full h-full gap-8 p-6 ${mapTheme[theme]} ${className}`">
-    <div class="max-w-[1280px] mx-auto">
+    <div :class="`${fullWidth ? 'w-full' :'max-w-[1280px]'} mx-auto`">
       <slot />
     </div>
   </div>

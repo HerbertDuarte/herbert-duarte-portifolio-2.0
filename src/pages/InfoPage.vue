@@ -9,29 +9,36 @@ import TitleComponent from "../components/TitleComponent.vue";
     <div class="flex justify-center py-4 sm:py-6 px-0 xs:px-2 sm:px-6 md:px-8">
       <div class="italic space-y-8 indent-8 max-w-4xl font-serif text-zinc-700">
         <p>
-          "Em uma das minhas experiências participei da construção dos sistemas
-          de processamento de fluxo e infrações de trânsito para mais de 14
-          cidades incluindo Belo Horizonte que é a 3° maior do Brasil em
-          tráfego. Várias estratégias foram usadas para conseguir lidar com a
-          grande carga dessas cidades, pude participar de decisões técnicas e
-          liderar a equipe."
+          "Em umas das minhas experiências, pude arquitetar e desenvolver do
+          zero um serviço de autenticação e permissões usando conceitos de RBAC
+          e ABAC, NestJS, Postgres, JWT, OAuth2 e TFA com confirmação via email.
+          Tudo isso utilizando boas práticas de segurança como cookies httpOnly,
+          recaptcha e prevenção de brute force. Todo o sistema foi desenvolvido
+          utilizando boas práticas de SOLID, Design Patterns, TDD com Testes de
+          integração e Clean Architecture."
         </p>
         <p>
-          "Em outra experiência, no início da minha carreira, pude planejar e
-          construir um sistema de gestão de tarefas e projetos para prefeituras.
-          Hoje (outubro de 2025) o sistema é fortemente usado por duas das 3
-          maiores cidades da Bahia, sendo de suma importância para documentação
-          e controle dos projetos e cumprimento de prazos, pois é baseado em
-          gráficos gantt que foram construídos manualmente, sem uso de
-          bibliotecas para atender precisamente às necessidades das
-          prefeituras."
+          "Para integrar a parte das permissões em outros sistemas Java e
+          SpringBoot criei uma biblioteca que continha anotações para serem
+          usadas em controllers como Guards das rotas. Também adicionei
+          utilitários que facilitam a comunicação com o serviço, para consulta
+          de informações dos usuários, seus grupos e suas permissões."
         </p>
 
         <p>
-          "Também tenho alguns materiais didáticos postados no Youtube e tive a
-          honra de ministrar um minicurso sobre TDD (Test-Driven Development) e
-          DDD (Domain-Driven Design) no IFBA - Instituto Federal da Bahia,
-          Campus de Vitória da Conquista na Week IT 2024."
+          "Para integrar a parte das permissões em outros sistemas Java e
+          SpringBoot criei uma biblioteca que continha anotações para serem
+          usadas em controllers como Guards das rotas. Também adicionei
+          utilitários que facilitam a comunicação com o serviço, para consulta
+          de informações dos usuários, seus grupos e suas permissões."
+        </p>
+        <p>
+          "Automatizei também processos de deploy, e o fluxo de desenvolvimento
+          da equipe com ferramentas como Coolify, WebHooks e Github actions.
+          Economizando o tempo de desenvolvimento e testes, reduzindo a
+          necessidade de abertura de cards unicamente para deploys em ambientes
+          de teste e homologação e possibilitando com que toda a equipe possa
+          participar desse processo com uma baixa curva de aprendizagem."
         </p>
       </div>
     </div>
