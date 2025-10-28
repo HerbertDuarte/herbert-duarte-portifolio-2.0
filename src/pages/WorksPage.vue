@@ -45,7 +45,7 @@ const works: Work[] = [
 ];
 </script>
 <template>
-  <ContainerComponent theme="light">
+  <ContainerComponent theme="gray">
     <div class="flex flex-col gap-8 font-serif pb-6">
       <TitleComponent title="Experiência Profissional" />
 
